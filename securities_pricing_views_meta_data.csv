@@ -1,0 +1,7 @@
+TABLE_SCHEMA,TABLE_NAME,COMMENT
+SA,VW_SECURITY_LAST_30D_DAILY_RETURN,Last 30 calendar days of equities with prior close (computed pre-filter) and daily % change.
+SA,VW_TOP20_EQUITY_BY_VOLUME_DAILY,Daily Top-20 most actively traded equities by volume with traded value (liquidity screen)
+SA,VW_SECURITY_DAILY_PRICES,Business-ready daily OHLCV joined with symbol and sector/industry (active universe only).
+SA,VW_ETF_LIQUIDITY_30D_SUMMARY,"ETF liquidity screener: 30-day average volume & traded value per ETF, with latest-day metrics and a 30D liquidity rank."
+SA,VW_WATCHLIST_HISTORY,"Time-series view of key watchlist equities including price, volume, and traded value — supports trend monitoring and focus dashboards."
+SA,VW_SECTOR_LIQUIDITY_LATEST,"Latest trading-day sector liquidity snapshot: traded value, number of names, and % contribution of each sector to market liquidity."
